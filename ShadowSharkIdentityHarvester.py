@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-A full fledged payload written in pure python3 that sends information about a target computer via email.
+A full fledged payload that sends information about a target computer via email.
 
 @author: Mr. Shark Spam Bot
 """
