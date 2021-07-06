@@ -1,19 +1,19 @@
-# Shadow Shark Identity Harvester
+# Identity Wargraver
 A full fledged payload written in pure python3 that sends information about a target computer via email.
 
 ## Installation
 ### Debian
 ```
 $ sudo apt-get install python3 python3-pip git
-$ git clone https://github.com/MrSharkSpamBot/ShadowSharkIdentityHarvester.git
-$ cd ShadowSharkIdentityHarvester/
+$ git clone https://github.com/MrSharkSpamBot/IdentityWargraver.git
+$ cd IdentityWargraver/
 $ pip3 install -r requirements.txt
 ```
 ### Arch
 ```
 $ sudo pacman -S python python-pip git
-$ git clone https://github.com/MrSharkSpamBot/ShadowSharkIdentityHarvester.git
-$ cd ShadowSharkIdentityHarvester/
+$ git clone https://github.com/MrSharkSpamBot/IdentityWargraver.git
+$ cd IdentityWargraver/
 $ pip3 install -r requirements.txt
 ```
 
@@ -22,5 +22,5 @@ This payload can run on Linux, Windows, and MacOS. To configure the payload go t
 
 ## Compilation
 ```
-pyinstaller --onefile --noconsole --icon icon.ico ShadowSharkIdentityHarvester.py
+pyinstaller --onefile --noconsole --icon icon.ico IdentityWargraver.py
 ```
