@@ -1,5 +1,5 @@
 # Identity Wargraver
-A full fledged payload written in pure python3 that sends information about a target computer via email.
+A simple yet effective python based payload that sends information about a target computer via email.
 
 ## Installation
 ### Debian
